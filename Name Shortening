@@ -1,0 +1,8 @@
+// Just shortening
+
+let name = "Mohit Saha Chowdhury";
+if( name.length > 9){
+newName = name.slice(0,8)+"..."}
+else{ newName = name}
+
+console.log(newName);
