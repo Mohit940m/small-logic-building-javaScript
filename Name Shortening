@@ -1,8 +1,9 @@
 // using slice()
 function nameShortner(name, maxLenght){
 
-if( name.length > maxLenght)
-{name = name.slice(0,maxLenght)+"..."}
+if( name.length > maxLenght){
+  return name = name.slice(0,maxLenght)+"..."
+}
 return name
 }
 
