@@ -1,0 +1,13 @@
+// using substring()
+
+function nameShortner(name, maxLenght){
+
+if( name.length > maxLenght){
+  return name = name.substring(0,maxLenght)+"..."
+}
+return name
+}
+
+let newName = nameShortner("Mohit Saha Chowdhury", 9);
+
+console.log(newName);
