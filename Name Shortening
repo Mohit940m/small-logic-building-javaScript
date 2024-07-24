@@ -1,8 +1,11 @@
-// Just shortening
+// using slice()
+function nameShortner(name, maxLenght){
 
-let name = "Mohit Saha Chowdhury";
-if( name.length > 9){
-newName = name.slice(0,8)+"..."}
-else{ newName = name}
+if( name.length > maxLenght)
+{name = name.slice(0,maxLenght)+"..."}
+return name
+}
+
+let newName = nameShortner("Mohit Saha Chowdhury", 9);
 
 console.log(newName);
